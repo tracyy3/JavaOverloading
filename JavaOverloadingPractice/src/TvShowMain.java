@@ -1,5 +1,5 @@
-import java.util.Scanner;     // imported the Scanner class
-import java.util.ArrayList;   // imported the arrayList
+import java.util.Scanner;       // imported the Scanner class
+import java.util.ArrayList;     // imported the arrayList
 
     public class TvShowMain {
     public static void main(String[] args) {
