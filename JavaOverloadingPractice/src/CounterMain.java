@@ -2,15 +2,12 @@ public class CounterMain {
 
     public static void main(String[] args) throws Exception {
 
-        // Constructor that constructs counter with "startValue"
         Counter counterOne = new Counter(10);
         System.out.println("----Counter: " + counterOne.value());
 
-        // Constructor that construct counter
         Counter counterTwo = new Counter();
         System.out.println("----Counter: " + counterTwo.value());
 
-        // counterOne methods
         System.out.println("----counterOne----");
         System.out.println(counterOne);
 
@@ -32,7 +29,6 @@ public class CounterMain {
         counterOne.decrease(-10);
         System.out.println(counterOne);
 
-        // counterTwo Methods
         System.out.println("----counterTwo----");
         System.out.println(counterTwo);
 
